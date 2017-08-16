@@ -35,4 +35,7 @@ dependencies {
     compile "com.android.support:support-vector-drawable:$supportLibraryVersion"
     compile "com.android.support:preference-v7:$supportLibraryVersion"
 
+    // bottom navigation
+    compile 'com.aurelhubert:ahbottomnavigation:2.0.4'
+
 }
