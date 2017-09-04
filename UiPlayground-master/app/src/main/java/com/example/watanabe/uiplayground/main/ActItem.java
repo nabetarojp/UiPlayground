@@ -1,4 +1,4 @@
-package com.example.watanabe.uiplayground;
+package com.example.watanabe.uiplayground.main;
 
 import android.app.Activity;
 

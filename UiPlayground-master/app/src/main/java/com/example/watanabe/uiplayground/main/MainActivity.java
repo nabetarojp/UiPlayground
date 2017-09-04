@@ -1,4 +1,4 @@
-package com.example.watanabe.uiplayground;
+package com.example.watanabe.uiplayground.main;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 
+import com.example.watanabe.uiplayground.R;
 import com.example.watanabe.uiplayground.databinding.ActivityMainBinding;
 
 import java.util.Arrays;

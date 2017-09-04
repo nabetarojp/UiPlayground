@@ -1,4 +1,4 @@
-package com.example.watanabe.uiplayground;
+package com.example.watanabe.uiplayground.main;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
