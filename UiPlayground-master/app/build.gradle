@@ -38,4 +38,7 @@ dependencies {
     // bottom navigation
     compile 'com.aurelhubert:ahbottomnavigation:2.0.4'
 
+    // Util
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
 }

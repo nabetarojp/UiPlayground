@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.watanabe.uiplayground.databinding.ListItemActivityBinding;
+import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
@@ -38,6 +39,8 @@ public class ActAdapter extends RecyclerView.Adapter<ActAdapter.ViewHolder> {
                 listener.onItemClick(a);
             }
         });
+        if (a.hasImage())
+            Picasso.with(holder.binding.imageArticle.getContext()).load(a.imgUrl).into(holder.binding.imageArticle);
     }
 
     @Override
