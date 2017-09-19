@@ -42,4 +42,8 @@ dependencies {
     // Util
     compile 'com.squareup.picasso:picasso:2.5.2'
 
+    // View Binding
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
 }
