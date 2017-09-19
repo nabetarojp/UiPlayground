@@ -35,7 +35,8 @@ dependencies {
     compile "com.android.support:support-vector-drawable:$supportLibraryVersion"
     compile "com.android.support:preference-v7:$supportLibraryVersion"
     compile "com.android.support:support-dynamic-animation:$supportLibraryVersion"
-
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.github.gfx.android.rvp:reversibleviewpager:1.0.2'
     // bottom navigation
     compile 'com.aurelhubert:ahbottomnavigation:2.0.4'
 
